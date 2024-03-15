@@ -10,7 +10,7 @@ def capturar_print():
     
     # Salva a captura de tela com um nome sequencial e formato PNG
     capturar_print.counter += 1
-    screenshot.save(f"{capturar_print.counter:03d}.png")
+    screenshot.save(f"{capturar_print.counter:03d}.jpeg")
 
 # Inicializa o contador
 capturar_print.counter = 0
