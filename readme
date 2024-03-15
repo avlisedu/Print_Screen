@@ -1,0 +1,7 @@
+Programa de Captura de Tela: Área de Trabalho Completa
+
+Este programa foi projetado para capturar imagens da área de trabalho completa do seu computador. Ele permite que você pressione uma tecla (nesse caso, a seta para a direita) para acionar a captura da tela inteira. O programa utiliza a biblioteca PyAutoGUI para realizar a captura da tela. Ao pressionar a tecla designada, o programa tira uma captura da tela inteira e a salva em um arquivo de imagem com um nome sequencial, no formato JPEG. A captura é feita com uma resolução padrão, mas você pode ajustar isso conforme necessário. Este programa é útil para capturar rapidamente o que está sendo exibido em sua área de trabalho sem precisar recortar ou selecionar manualmente uma área específica.
+
+Programa de Captura de Tela: Janela Ativa
+
+Ao contrário do programa anterior, este programa foi desenvolvido para capturar imagens da janela ativa no seu sistema. Ele permite que você pressione uma tecla (novamente, a seta para a direita) para acionar a captura da janela ativa. O programa utiliza a biblioteca PyGetWindow para identificar e capturar a janela ativa. Quando a tecla designada é pressionada, o programa identifica a janela ativa, tira uma captura da mesma e a salva em um arquivo de imagem com um nome sequencial, no formato JPEG. Similar ao programa anterior, a captura é realizada com uma resolução padrão, mas você pode ajustá-la conforme necessário. Este programa é útil para capturar o conteúdo específico de uma janela de aplicativo ou de um site sem capturar a área de trabalho inteira.
