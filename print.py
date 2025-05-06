@@ -25,18 +25,17 @@ def capturar_quando_seta(bbox):
             print("Finalizado.")
             break
         if keyboard.is_pressed('right'):
-            time.sleep(0.2)  # evitar múltiplas capturas com um só clique
+            time.sleep(0.2) 
             screenshot = ImageGrab.grab(bbox=bbox)
             nome_arquivo = f"captura_{contador}.png"
             screenshot.save(nome_arquivo)
             print(f"Captura {contador} salva.")
             contador += 1
 
-            # Aguarda a tecla ser solta para evitar capturas duplicadas
+            
             while keyboard.is_pressed('right'):
                 time.sleep(0.1)
 
-# Programa principal
 if __name__ == "__main__":
     bbox = obter_coordenadas()
     capturar_quando_seta(bbox)
